@@ -6,11 +6,21 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "barryvdh/laravel-debugbar": "^3.5",
+        "encore/laravel-admin": "^1.8",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
+        "guzzlehttp/guzzle": "^7.3",
+        "intervention/image": "^2.5",
+        "jxlwqq/material-ui": "^1.0",
+        "laravel-admin-ext/cropper": "^1.0",
+        "laravel-admin-ext/helpers": "1.*",
+        "laravel-admin-ext/scheduling": "^1.1",
+        "laravel-admin-ext/summernote": "^1.0",
         "laravel/framework": "^8.40",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "overtrue/laravel-query-logger": "^2.1",
+        "wuwx/laravel-admin-loading-overlay": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
