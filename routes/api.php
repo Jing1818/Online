@@ -21,5 +21,6 @@ Route::group(['prefix'=>'v1'],function () {
     Route::get('index', [IndexController::class, 'index']);
     Route::get('internship/{internship}', [InternshipController::class, 'detail']);
     Route::post('weapp/authorizations', [AuthorizasController::class, 'weappstore']);
-    Route::post('weapp/code', [UserController::class, 'sendCode']);
+    Route::post('weapp/code', [UserController::class, 'sendCode'])->name('weapp.code.send');
+    Route::post('weapp/code/verify',[UserController::class,'verifyCode'])->name('weapp.code.verify');
 });
