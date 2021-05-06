@@ -29,5 +29,10 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'wechat'=>[
+        'client_id'=>env('WECHAT_MINI_PROGRAM_APPID'),
+        'client_secrect'=>env('WECHAT_MINI_PROGRAM_SECRET'),
+        'redirect'=>env('WECHAT_MINI_PROGRAM_REDIRECT_URL')
+    ]
 
 ];

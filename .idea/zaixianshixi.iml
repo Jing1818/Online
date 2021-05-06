@@ -132,6 +132,21 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel-admin-ext/helpers" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel-admin-ext/scheduling" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/jxlwqq/material-ui" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/xiaohuilam/easywechat-adpter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/xiaohuilam/laravel-response-success" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/xiaohuilam/laravel-wxapp-login" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/overtrue/wechat" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/overtrue/socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/overtrue/laravel-wechat" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pimple/pimple" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/easywechat-composer/easywechat-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/overtrue/laravel-socialite" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/overtrue/easy-sms" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

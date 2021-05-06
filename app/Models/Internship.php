@@ -13,6 +13,7 @@ class Internship extends Model
         'core_content'=>'json'
     ];
     protected $fillable = ['title', 'desc', 'content'];
+    protected $table='internships';
     public function category(){
         return $this->belongsTo(Category::class,'cate_id');
     }

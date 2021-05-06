@@ -125,6 +125,21 @@
       <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/helpers" />
       <path value="$PROJECT_DIR$/vendor/laravel-admin-ext/scheduling" />
       <path value="$PROJECT_DIR$/vendor/jxlwqq/material-ui" />
+      <path value="$PROJECT_DIR$/vendor/xiaohuilam/easywechat-adpter" />
+      <path value="$PROJECT_DIR$/vendor/xiaohuilam/laravel-response-success" />
+      <path value="$PROJECT_DIR$/vendor/xiaohuilam/laravel-wxapp-login" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/wechat" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/socialite" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-wechat" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/easywechat-composer/easywechat-composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-socialite" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/easy-sms" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
