@@ -23,6 +23,7 @@
         "overtrue/laravel-query-logger": "^2.1",
         "overtrue/laravel-socialite": "^3.0",
         "overtrue/laravel-wechat": "^6.0",
+        "propaganistas/laravel-phone": "^4.3",
         "wuwx/laravel-admin-loading-overlay": "^1.0",
         "xiaohuilam/laravel-wxapp-login": "^0.14.0"
     },
