@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Routing\Router;
-
 Admin::routes();
-
 Route::group([
     'prefix'        => config('admin.route.prefix'),
     'namespace'     => config('admin.route.namespace'),
@@ -14,5 +12,7 @@ Route::group([
     $router->get('/', 'HomeController@index')->name('home');
     $router->resource('internships', InternshipController::class);
     $router->resource('stages', StageController::class);
+    $router->resource('users', UserController::class);
+
 
 });

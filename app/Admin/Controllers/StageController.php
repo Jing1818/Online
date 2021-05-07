@@ -47,11 +47,11 @@ class StageController extends AdminController
         $show = new Show(Stage::findOrFail($id));
         $show->field('internship.title', __('项目'));
         $show->field('title', __('标题'));
-        $show->field('stage_goal', __('阶段目标'));
+        $show->field('stage_goal', __('阶段目标'))->label();
+        $show->field('file',__('任务文件'))->label();
         $show->field('day_sign', __('是否每日签到'))->using(['0'=>'签到不纳入考勤','1'=>'签到将纳入考勤']);
         $show->field('created_at', __('创建时间'));
         $show->field('updated_at', __('更新时间'));
-
         return $show;
     }
 
@@ -63,11 +63,11 @@ class StageController extends AdminController
     protected function form()
     {
         $form = new Form(new Stage());
-
         $form->select('internship_id', __('项目'))->options(Internship::all()->pluck('title','id'));
         $form->text('title', __('标题'));
         $form->list('stage_goal', __('阶段目标'));
-        $form->number('day_sign', __('是否每日签到'))->default(1);
+        $form->multipleFile('file',__('任务内容'))->removable()->sortable();
+        $form->switch('day_sign', __('是否每日签到'));
 
         return $form;
     }

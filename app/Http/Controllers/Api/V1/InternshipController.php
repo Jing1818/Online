@@ -12,7 +12,6 @@ class InternshipController extends Controller
 {
     //
     public function detail(Request $request,Internship $internship){
-        dd($internship);
         return response()->json([
             'status'=>200,
             'data'=>new InternshipDetailResource($internship)
